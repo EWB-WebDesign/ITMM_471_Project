@@ -239,7 +239,7 @@ body, html {
 .nav {
   width: 100%;
   position: static;
-  background-color: #2F3648;
+  background-color: #292929;
   text-align: right;
   top:0;
   z-index: 99999;
@@ -249,7 +249,7 @@ body, html {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #2F3648;
+  background-color: #292929;
   display: inline-block;
   position: sticky;
   position: -webkit-sticky;
@@ -283,4 +283,23 @@ body, html {
 	background-color: #5DD5F7;
 	text-align: center;
 	padding: 10px 0 10px 0;
+}
+
+/*Footer CSS*/
+
+footer{
+  background-color: #404040;
+  color: white;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+footer p {
+  padding-bottom: 10px;
+	margin: 0 2% 0 2%;
 }
