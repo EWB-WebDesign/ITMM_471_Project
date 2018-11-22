@@ -225,15 +225,6 @@ body, html {
 	text-align: center;
 }
 
-#logo{
-	background-color: white;
-	padding: 20px 0 20px 0;
-}
-
-#logo img{
-	width: 96%;
-	margin-top: 5px;
-}
 /*Navigation Bar Styling*/
 
 .nav {
@@ -277,12 +268,40 @@ body, html {
   background-color: #B77DBB;
 }
 
+/*Logo CSS*/
+
+#logo{
+	background-color: white;
+	padding: 20px 0 0px 0;
+}
+
+#EWB{
+	width: 96%;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+#classroom{
+	width: 115%;
+}
+
 /*Class Info CSS*/
 
 .classInfo{
-	background-color: #5DD5F7;
+	background-color: ;
 	text-align: center;
 	padding: 10px 0 10px 0;
+	width: 98%;
+	margin: auto;
+	display: block;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: #5DD5F7;
+	border-width: 1px;
+}
+
+#class1{
+	margin-bottom: 5px;
 }
 
 /*Footer CSS*/
