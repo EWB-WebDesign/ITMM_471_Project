@@ -218,8 +218,20 @@ textarea {
 
 /*Mobile First Style*/
 
+body, html {
+  background-color: White;
+  font-family:"Segoe UI", Helvetica, Tahoma, sans-serif;
+  color: black;
+	text-align: center;
+}
+
+#logo{
+	background-color: white;
+	padding: 20px 0 20px 0;
+}
+
 #logo img{
-	width: 60%;
+	width: 96%;
 	margin-top: 5px;
 }
 /*Navigation Bar Styling*/
@@ -263,4 +275,12 @@ textarea {
 
 .nav a.active {
   background-color: #B77DBB;
+}
+
+/*Class Info CSS*/
+
+.classInfo{
+	background-color: #5DD5F7;
+	text-align: center;
+	padding: 10px 0 10px 0;
 }
