@@ -225,6 +225,20 @@ body, html {
 	text-align: center;
 }
 
+p{
+	font-size: 16px;
+}
+
+h1{
+	font-size: 1.44em;
+	font-weight: bold;
+}
+
+h2{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
 /*Navigation Bar Styling*/
 
 .nav {
@@ -272,13 +286,16 @@ body, html {
 
 #logo{
 	background-color: white;
-	padding: 20px 0 0px 0;
+	padding: 0px 0 0px 0;
 }
 
 #EWB{
 	width: 96%;
-	margin-top: 20px;
+	margin-top: 10px;
 	margin-bottom: 10px;
+	margin-left: 2%;
+	margin-right: auto;
+	position: absolute;
 }
 
 #classroom{
@@ -298,6 +315,10 @@ body, html {
 	border-style: solid;
 	border-color: #5DD5F7;
 	border-width: 1px;
+}
+
+.flag{
+	width: 20%;
 }
 
 #class1{
