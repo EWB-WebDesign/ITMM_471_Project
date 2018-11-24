@@ -9,6 +9,5 @@ function validate(){
   }
   else{
     alert("Thank You For Signing Up!");
-    window.open("https://ewb-webdesign.github.io/ITMM_471_Project/");
   }
 }
