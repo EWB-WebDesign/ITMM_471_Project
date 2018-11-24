@@ -296,11 +296,11 @@ p{
 
 #EWB{
 	width: 96%;
-	margin-top: 15px;
-	margin-bottom: 10px;
-	margin-left: 2%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 1%;
 	margin-right: auto;
-	position: absolute;
+	position: relative
 }
 
 #classroom{
@@ -437,6 +437,13 @@ input{
   border-radius: 8px;
   box-sizing: border-box;
 	font-weight: bold;
+	border-style: none;
+	background-color: #dddddd;
+}
+
+#register{
+	color: white;
+	background-color: #222222;
 }
 
 #container{
@@ -471,4 +478,15 @@ footer{
 footer p {
   padding-bottom: 10px;
 	margin: 0 2% 0 2%;
+}
+
+/*Medium Screens*/
+@media screen and (min-width: 768px){
+
+}
+
+/*Desktop Screens or Larger*/
+
+@media screen and (min-width: 1024px){
+
 }
