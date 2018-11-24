@@ -291,6 +291,7 @@ p{
 #logo{
 	background-color: white;
 	padding: 0px 0 0px 0;
+
 }
 
 #EWB{
@@ -317,12 +318,11 @@ p{
 	margin-top: 10px;
 	margin-bottom: 10px;
 	display: block;
-	border-radius: 10px;
-	border-style: solid;
-	border-color: black;
-	border-width: 1px;
+	border-radius: 50px;
+	border-style: none;
 	background-color: #b0e0e6;
 	color: Black;
+	box-shadow: 0 4px 8px;
 }
 
 .flag{
@@ -340,13 +340,18 @@ p{
 }
 
 #class1{
-	margin-bottom: 5px;
+	margin-bottom: 20px;
+}
+
+#class2{
+	margin-bottom: 20px;
 }
 
 .button{
 	background-color: #003366;
 	border-style: none;
 	color: white;
+	border-radius: 20px;
 }
 
 /*About Page*/
@@ -411,10 +416,23 @@ p{
 
 /*Sign-Up Page*/
 
+#signup{
+	background-image: url("../media/board.jpg");
+	background-size: 100%;
+	background-repeat: repeat;
+}
+
+#title{
+	font-family: 'Roboto', sans-serif;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	color: #3399ff;
+}
+
 input{
   width: 96%;
-  padding: 10px 20px;
-  margin: 8px 0;
+  padding: 12px 20px;
+  margin: 10px 0;
   border: 1px solid black;
   border-radius: 8px;
   box-sizing: border-box;
@@ -423,6 +441,7 @@ input{
 
 #container{
   text-align: center;
+	width: 96%;
   margin: auto;
   margin-top: 20%;
   margin-bottom: 50%;
@@ -432,6 +451,7 @@ input{
 	border-radius: 10px;
 	border-color: black;
 	border-width: 1px;
+	box-shadow: 0 14px 28px;
 }
 
 /*Footer CSS*/
