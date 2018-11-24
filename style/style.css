@@ -279,11 +279,11 @@ p{
 }
 
 .nav a:hover {
-  background-color: #BA27C4;
+  background-color: #3399ff;
 }
 
-.nav a.active {
-  background-color: #B77DBB;
+.nav a:active {
+  background-color: #003366;
 }
 
 /*Logo CSS*/
