@@ -223,20 +223,24 @@ body, html {
   font-family:"Segoe UI", Helvetica, Tahoma, sans-serif;
   color: black;
 	text-align: center;
+	background-color: #f0f8ff;
 }
-
-p{
-	font-size: 16px;
-}
+/*Minor Third Modular Scale*/
 
 h1{
-	font-size: 1.44em;
+  font-size: 27.648px;
 	font-weight: bold;
 }
-
 h2{
-	font-size: 1.2em;
+  font-size: 23.04px;
 	font-weight: bold;
+}
+h3{
+  font-size: 19.2px;
+	font-weight: bold;
+}
+p{
+  font-size: 16px;
 }
 
 /*Navigation Bar Styling*/
@@ -307,22 +311,120 @@ h2{
 .classInfo{
 	background-color: ;
 	text-align: center;
-	padding: 10px 0 10px 0;
-	width: 98%;
+	padding: 20px 0 20px 0;
+	width: 95%;
 	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	display: block;
 	border-radius: 10px;
 	border-style: solid;
-	border-color: #5DD5F7;
+	border-color: black;
 	border-width: 1px;
+	background-color: #3b5998;
+	color: white;
 }
 
 .flag{
 	width: 20%;
 }
 
+.classInfo > h1{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.classInfo > p{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
 #class1{
 	margin-bottom: 5px;
+}
+
+/*About Page*/
+
+#aboutLogo{
+	margin: auto;
+	width: 100%;
+	margin-top: 8%;
+	margin-bottom: 4%;
+}
+
+#summary{
+	width: 85%;
+	margin: auto;
+}
+
+#summary > p{
+	margin-top: 5%;
+	margin-bottom: 3%;
+}
+
+#pres{
+	border-top-style: solid;
+	border-top-color: gray;
+	border-top-width: 1px;
+	margin-top: 20%;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-top: 5%;
+}
+
+#ceo{
+	border-top-style: solid;
+	border-top-color: gray;
+	border-top-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: gray;
+	border-bottom-width: 1px;
+	margin-top: 10%;
+	margin-bottom: 20%;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.staff > h2{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.staff > h3{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+
+.staff{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+/*Sign-Up Page*/
+
+input{
+  width: 96%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: 1px solid black;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+#container{
+  text-align: center;
+  margin: auto;
+  margin-top: 20%;
+  margin-bottom: 50%;
+  box-sizing: border-box;
+  background-color: white;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: black;
+	border-width: 1px;
 }
 
 /*Footer CSS*/
