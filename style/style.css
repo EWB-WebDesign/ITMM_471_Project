@@ -274,7 +274,7 @@ p{
   display: block;
   color: white;
   text-align: center;
-  padding: 12px 14px;
+  padding: 12px 16px;
   text-decoration: none;
 }
 
@@ -300,7 +300,7 @@ p{
 	margin-bottom: 20px;
 	margin-left: 1%;
 	margin-right: auto;
-	position: relative
+	position: relative;
 }
 
 #classroom{
@@ -434,7 +434,7 @@ input{
   padding: 12px 20px;
   margin: 10px 0;
   border: 1px solid black;
-  border-radius: 8px;
+  border-radius: 12px;
   box-sizing: border-box;
 	font-weight: bold;
 	border-style: none;
@@ -455,7 +455,7 @@ input{
   box-sizing: border-box;
   background-color: white;
 	border-style: solid;
-	border-radius: 10px;
+	border-radius: 25px;
 	border-color: black;
 	border-width: 1px;
 	box-shadow: 0 14px 28px;
@@ -482,11 +482,91 @@ footer p {
 
 /*Medium Screens*/
 @media screen and (min-width: 768px){
+	#EWB{
+		width: 70%;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
 
+	.nav li {
+	  font-size: 1.44em;
+	}
+
+	.nav li a {
+	  padding: 16px 20px;
+	}
+
+	h1{
+		font-size: 33.178px;
+	}
+
+	h2{
+	  font-size: 27.648px;
+	}
+
+	h3{
+	  font-size: 23.04px;
+	}
+
+	p{
+	  font-size: 19.2px;
+	}
+
+	.button, #register{
+		width: 50%;
+	}
+
+	.classInfo{
+		width: 80%;
+	}
+
+	.classInfo > p{
+		width: 85%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#title{
+		margin-top: 60px;
+		margin-bottom: 40px;
+	}
+
+	input{
+		width: 94%;
+	  margin: 12px 0;
+	  padding: 14px 20px;
+	}
+
+	#container{
+		width: 75%;
+	}
+
+	#aboutLogo{
+		width: 95%;
+		margin-top: 7%;
+		margin-bottom: 3%;
+	}
+
+	#summary{
+		width: 80%;
+	}
+
+	#summary > p{
+		margin-top: 5%;
+		margin-bottom: 2%;
+	}
+
+	#pres{
+		margin-top: 13%;
+	}
 }
 
 /*Desktop Screens or Larger*/
 
 @media screen and (min-width: 1024px){
-
+	#EWB{
+		width: 60%;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
 }
