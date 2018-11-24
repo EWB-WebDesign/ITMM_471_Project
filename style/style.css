@@ -298,9 +298,9 @@ p{
 	width: 96%;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	margin-left: 1%;
+	margin-left: 2%;
 	margin-right: auto;
-	position: relative;
+	position: absolute;
 }
 
 #classroom{
@@ -315,8 +315,8 @@ p{
 	padding: 20px 0 20px 0;
 	width: 95%;
 	margin: auto;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 10%;
+	margin-bottom: 10%;
 	display: block;
 	border-radius: 50px;
 	border-style: none;
@@ -337,14 +337,6 @@ p{
 .classInfo > p{
 	margin-top: 5%;
 	margin-bottom: 5%;
-}
-
-#class1{
-	margin-bottom: 20px;
-}
-
-#class2{
-	margin-bottom: 20px;
 }
 
 .button{
@@ -398,7 +390,7 @@ p{
 	padding-bottom: 5%;
 }
 
-.staff > h2{
+.staff > h1{
 	margin-top: 5%;
 	margin-bottom: 5%;
 }
@@ -451,7 +443,7 @@ input{
 	width: 96%;
   margin: auto;
   margin-top: 20%;
-  margin-bottom: 50%;
+  margin-bottom: 40%;
   box-sizing: border-box;
   background-color: white;
 	border-style: solid;
@@ -484,8 +476,9 @@ footer p {
 @media screen and (min-width: 768px){
 	#EWB{
 		width: 70%;
-		margin-top: 30px;
-		margin-bottom: 30px;
+		margin-top: 40px;
+		margin-bottom: 40px;
+		margin-left: 15%;
 	}
 
 	.nav li {
@@ -518,6 +511,8 @@ footer p {
 
 	.classInfo{
 		width: 80%;
+		margin-top: 15%;
+		margin-bottom: 15%;
 	}
 
 	.classInfo > p{
@@ -539,6 +534,8 @@ footer p {
 
 	#container{
 		width: 75%;
+		margin-top: 20%;
+		margin-bottom: 30%;
 	}
 
 	#aboutLogo{
@@ -559,14 +556,83 @@ footer p {
 	#pres{
 		margin-top: 13%;
 	}
+
+	footer{
+		padding-top: 40px;
+		padding-bottom: 30px;
+	}
 }
 
 /*Desktop Screens or Larger*/
 
 @media screen and (min-width: 1024px){
+
 	#EWB{
 		width: 60%;
-		margin-top: 30px;
-		margin-bottom: 30px;
+		margin-top:  60px;
+		margin-bottom: 50px;
+		margin-left: 20%;
+	}
+
+	.nav li {
+	  font-size: 1.728em;
+	}
+
+	.nav li a {
+	  padding: 20px 26px;
+	}
+
+	h1{
+		font-size: 39.813px;
+	}
+
+	h2{
+		font-size: 33.178px;
+	}
+
+	h3{
+	  font-size: 27.648px;
+	}
+
+	p{
+	  font-size: 23.04px;
+	}
+
+	.button, #register{
+		width: 30%;
+		padding: 20px 0 20px 0;
+	  font-size: 23.04px;
+	}
+
+	.classInfo{
+		width: 60%;
+	}
+
+	#title{
+		margin-top: 70px;
+		margin-bottom: 50px;
+	}
+
+	input{
+		width: 90%;
+	  padding: 12px 20px;
+	}
+
+	#container{
+		width: 50%;
+		margin-top: 10%;
+		margin-bottom: 20%;
+	}
+
+	#aboutLogo{
+		width: 75%;
+	}
+
+	#summary{
+		width: 80%;
+	}
+
+	#pres{
+		margin-top: 10%;
 	}
 }
